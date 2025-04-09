@@ -8,6 +8,7 @@ import x from '../assets/x.svg'
 import linkedIn from '../assets/linkedIn.svg'
 import github from '../assets/github.svg'
 
+const baseURL = import.meta.env.VITE_BACKEND_URL;
 
 const Contact = () => {
 
@@ -33,7 +34,7 @@ const Contact = () => {
     const toastId = toast.loading('Submitting...');
 
     try {
-      const res = await fetch('http://localhost:3000/', {
+      const res = await fetch(baseURL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data),
