@@ -5,6 +5,8 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import { Toaster } from 'react-hot-toast';
+import { SpeedInsights } from "@vercel/speed-insights/react"
+
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
         <section id="about"><About /></section>
         <section id="projects"><Projects /></section>
         <section id="contact"><Contact /></section>
+        <SpeedInsights/>
       </main>
     </div>
   );
