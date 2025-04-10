@@ -14,7 +14,7 @@ import AboutSkills from './AboutSkills';
 
 const handleDownload = () => {
   const anchor = document.createElement('a');
-  anchor.href = './public/VivekKumarSinghResume.pdf'; 
+  anchor.href = '/public/VivekKumarSinghResume.pdf'; 
   anchor.download = 'VivekKumarSinghResume.pdf';
   document.body.appendChild(anchor); 
   anchor.click();
