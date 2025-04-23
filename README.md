@@ -2,7 +2,7 @@
 
 Welcome to the frontend of my **personal developer portfolio**, built with **React** and styled with **Tailwind CSS**. This project is a reflection of who I am as a **web developer**—what I’ve built, what I stand for, and what I’m working towards.
 
-![Screenshot of Portfolio](https://your-screenshot-link.com) <!-- Add your hosted screenshot here -->
+![image](https://github.com/user-attachments/assets/1f5cdf8d-2f58-40c7-bdc1-e1be7ac06985)
 
 ---
 
