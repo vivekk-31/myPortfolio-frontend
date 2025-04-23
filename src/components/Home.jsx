@@ -23,17 +23,20 @@ const Home = ({name, toggleFunction}) => {
     };
   }, [])
 
-  const toggleSection=()=>{
-     const element = document.getElementById("about");
+  const toggleSection = () => {
+    const element = document.getElementById("about");
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      const yOffset = -80; 
+      const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  
+      window.scrollTo({ top: y, behavior: 'smooth' });
     }
-  }
+  };
   
 
   return (
     <>
-    <div className='container flex-grow md:flex justify-around flex-none md:min-h-full '>
+    <div className='flex-grow md:flex justify-around flex-none md:min-h-full '>
       <div className="left md:px-15 md:my-15  md:flex-none md:justify-normal flex justify-center py-10  ">
       <img src={Portfolio} alt="" className=' md:h-100 md:w-100 md:rounded-full h-45 w-45 rounded-full' />
       </div>

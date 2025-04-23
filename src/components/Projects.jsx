@@ -17,7 +17,7 @@ const Projects = ({projectName, projectDescription, projectPreview, link}) => {
   return (
     <>
     <div className='px-4 max-w-5xl mx-auto min-h-full md:px-35 md:mb-20'>
-  <h1 className='md:text-5xl text-4xl font-semibold mb-4 text-center md:mb-10'>--Projects--</h1>
+  <h1 className='md:text-5xl text-4xl font-semibold mb-4 text-center md:mb-10'>Projects</h1>
 
   <div className="flex flex-col md:flex-row md:justify-center gap-12 md:mx-20">
     

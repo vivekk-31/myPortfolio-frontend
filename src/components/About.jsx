@@ -28,11 +28,11 @@ const About = ({name, toggleFunction, title, name1, name2, name3, name4, source1
     
       <div className="px-4 max-w-5xl mx-auto mt-10 min-h-full md:px-30 mb-10">
         <div className="about ">
-          <h1 className='md:text-5xl text-4xl  font-semibold mb-4 flex justify-center items-center'>--Who am I?--</h1>
+          <h1 className='md:text-5xl text-4xl  font-semibold mb-4 flex justify-center items-center'>Who am I?</h1>
           <p className="text-lg px-6 flex justify-center">I'm a developer who enjoys turning ideas into clean, functional interfaces. I work with HTML, CSS, JavaScript, and React, and I'm diving deeper into backend tools like Node.js and MongoDB. Writing better code with every project, learning constantly, and keeping things simple and meaningful.</p>
         </div>
         <div className="education mt-5">
-          <h1 className='md:text-5xl text-4xl font-semibold mb-4 flex justify-center'>--Education--</h1>
+          <h1 className='md:text-5xl text-4xl font-semibold mb-4 flex justify-center'>Education</h1>
           <h1 className='flex justify-center md:flex-none md:justify-normal text-xl font-semibold px-6 text-center mb-3 md:mb-1'>Bachelor of Computer Applications - 2024</h1>
           <p className='text-lg px-6 flex justify-center'>Completed my Bachelor’s in Computer Applications, but my real education came from building, breaking, and rebuilding projects on my own. Everything I know, I learned by doing. Curiosity, late nights, and real-world problem-solving taught me more than any classroom ever could.</p>
           <div className="flex justify-center">
@@ -40,7 +40,7 @@ const About = ({name, toggleFunction, title, name1, name2, name3, name4, source1
         </div>
 
         <div className="skills mt-10 px-4">
-          <h1 className='text-5xl font-semibold mb-10 flex justify-center'>--Skills--</h1>
+          <h1 className='md:text-5xl text-4xl font-semibold mb-10 flex justify-center'>Skills</h1>
 
           <div className="flex flex-col gap-6">
 
