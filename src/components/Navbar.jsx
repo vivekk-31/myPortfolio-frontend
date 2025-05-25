@@ -30,22 +30,21 @@ const Navbar = () => {
 
 
     return (
-        <nav className="sticky top-0 z-50 bg-[#F2F0E6] text-[#5a6b27] dark:bg-[#1a1a1a] dark:text-gray-300 px-4 py-5 md:h-22 ">
+        <nav className="sticky top-0 z-50 bg-[#F2F0E6] text-[#5a6b27] dark:bg-[#1a1a1a] dark:text-gray-300 px-4 py-5 md:h-22">
             <div className="flex justify-between items-center">
 
-                <div onClick={toggleSection} className="text-xl md:text-3xl font-bold md:font-semibold cursor-pointer md:mx-65 mx-2">Vivek Singh</div>
+                <div onClick={toggleSection} className="text-xl md:text-3xl font-bold md:font-semibold cursor-pointer mx-2 ">Vivek Singh</div>
 
                 <div className="md:hidden text-2xl cursor-pointer" onClick={() => setIsOpen(!isOpen)}>
                     <GiHamburgerMenu />
                 </div>
 
-                <ul className="hidden md:flex flex-wrap list-none gap-10 items-center font-semibold text-lg mx-25 my-2 ">
+                <ul className="hidden md:flex flex-wrap list-none gap-8 items-center font-semibold text-lg my-2 ">
                     <li><ThemeToggle /></li>
                     <a onClick={() => { scrollToSection('home'); setIsOpen(false); }} className="hover:scale-105 transition-transform font-semibold text-2xl cursor-pointer">Home</a>
                     <a onClick={() => { scrollToSection('about'); setIsOpen(false); }} className="hover:scale-105 transition-transform font-semibold text-2xl cursor-pointer">About</a>
                     <a onClick={() => { scrollToSection('projects'); setIsOpen(false); }} className="hover:scale-105 transition-transform font-semibold text-2xl cursor-pointer">Projects</a>
                     <a onClick={() => { scrollToSection('contact'); setIsOpen(false); }} className="hover:scale-105 transition-transform font-semibold text-2xl cursor-pointer">Contact</a>
-
                 </ul>
             </div>
 
@@ -56,7 +55,6 @@ const Navbar = () => {
                     <a onClick={() => { scrollToSection('about'); setIsOpen(false); }} className="hover:scale-105 transition-transform font-semibold text-2xl cursor-pointer">About</a>
                     <a onClick={() => { scrollToSection('projects'); setIsOpen(false); }} className="hover:scale-105 transition-transform font-semibold text-2xl cursor-pointer">Projects</a>
                     <a onClick={() => { scrollToSection('contact'); setIsOpen(false); }} className="hover:scale-105 transition-transform font-semibold text-2xl cursor-pointer">Contact</a>
-
                 </ul>
             </>)}
         </nav>
